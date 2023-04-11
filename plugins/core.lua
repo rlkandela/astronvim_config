@@ -74,4 +74,14 @@ return {
   --     }, { mode = "n", prefix = "<leader>" })
   --   end,
   -- },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    config = function(plugin, opts)
+      local cfg = {}
+      cfg.window = {
+        width = 50,
+      }
+      return cfg
+    end,
+  },
 }

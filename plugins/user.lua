@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "tpope/vim-surround",
+  "luochen1990/rainbow",
+  "folke/tokyonight.nvim",
+  {
+    "sainnhe/sonokai",
+    config = function()
+      vim.g.sonokai_style = "atlantis"
+      vim.g.sonokai_better_performance = 1
+    end,
+  },
 }
