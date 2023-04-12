@@ -8,6 +8,7 @@ return {
     signcolumn = "auto",   -- sets vim.opt.signcolumn to auto
     wrap = false,          -- sets vim.opt.wrap
     termguicolors = true,
+    mouse = "",
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader
@@ -27,5 +28,4 @@ return {
 --   local_vim.opt.shortmess = vim.opt.shortmess + { I = true } -- add to option list
 --
 --   return local_vim
--- end
 -- end
