@@ -80,6 +80,9 @@ return {
       local cfg = {}
       cfg.window = {
         width = 50,
+        mappings = {
+          ["<space>"] = false,
+        },
       }
       return cfg
     end,
